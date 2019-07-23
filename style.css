@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Literata:400i&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Literata", serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.navbar-brand img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.navbar-brand span {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 40px !important;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.offset {
+  height: 4.5rem;
+  margin-top: -4.5rem;
+}
+
+.carousel-inner {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.carousel-caption {
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 61rem;
+  opacity: 0.8;
+}
+
+.carousel-caption h4 {
+  font-size: 50%;
+  font-weight: 400;
+  margin-bottom: -0.6rem;
+}
+
+.carousel-caption {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.carousel-caption p {
+  margin-bottom: -2rem;
+}
+
+.carousel-caption .btn {
+  border-width: 1.5px;
+}
+
+.intro-section {
+  width: 100%;
+  height: 25%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url(pool.jpg) center/cover no-repeat;
+}
+
+.intro-section .intro-inner {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: rgb(230, 224, 224);
+  letter-spacing: 0.1rem;
+}
+
+.landing-page {
+  width: 100%;
+  min-height: 50%;
+  background-color: #f6f1f5;
+}
+
+.landing-page .padding {
+  padding-top: 2rem;
+}
+
+.landing-page .h2 {
+  color: #766270;
+  word-spacing: 0.1rem;
+}
+
+.landing-page .text-secondary {
+  color: #e97c57 !important;
+}
+
+.landing-page .description {
+  font-size: 17.7px;
+  letter-spacing: 0.75px;
+  color: #948a91;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+
+.landing-page .card {
+  border-radius: 5px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: 0px 0px 12.75px 2.25px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+
+.landing-page .card h4 {
+  color: #6ca49a;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.landing-page .card p {
+  line-height: 1.3;
+  letter-spacing: 0.75px;
+  color: #948a91;
+  font-size: 16.6px;
+}
+
+.landing-page .card img {
+  width: 6.25rem;
+}
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(sunsetonbridge.jpg) center/cover no-repeat;
+}
+
+.wrapper-inner {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-family: "Great Vibes", cursive;
+  color: whitesmoke;
+  letter-spacing: 0.3rem;
+}
+
+.wrapper-cardlist {
+  min-height: 80%;
+  background-color: #f6f1f5;
+}
+
+.wrapper-cardlist .custom-width {
+  width: 55%;
+  padding-top: 4rem;
+}
+
+/* make cards same height */
+.wrapper-cardlist .card {
+  height: 100%;
+  border-radius: 7px;
+  box-shadow: 0px 0px 12.75px 2.25px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper-cardlist .card img {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  height: 15rem;
+}
+
+.wrapper-cardlist .spacing {
+  margin-bottom: 2rem;
+}
+
+.wrapper-cardlist .first-card {
+  background-color: #369ff4;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+  border-radius: 7px;
+}
+
+.wrapper-cardlist .second-card,
+.third-card,
+.fourth-card,
+.fifth-card,
+.sixth-card {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.wrapper-cardlist .second-card {
+  background-color: #9064bf;
+}
+
+.wrapper-cardlist .third-card {
+  background-color: #8ed4cc;
+}
+
+.wrapper-cardlist .fourth-card {
+  background-color: #fe813a;
+}
+
+.wrapper-cardlist .fifth-card {
+  background-color: #fa575d;
+}
+
+.wrapper-cardlist .sixth-card {
+  background-color: #ffca0a;
+}
+
+.wrapper-banner img {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  opacity: 0.8;
+}
+
+.wrapper-contact {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  min-height: 30%;
+  padding-top: 1.5rem;
+}
+
+.custom-line {
+  width: 15%;
+  border-top: 1px solid #d5d5d5;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper-contact .social a {
+  font-size: 2.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.fa-facebook-square {
+  color: #1658e6;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+.fa-instagram {
+  color: #517fa4;
+}
+
+.fa-facebook-square:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+.wrapper-contact .logo span {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.wrapper-contact img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.wrapper-contact p {
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 767.99px) {
+  .landing-page .card .center {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper-inner {
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    width: 75%;
+  }
+
+  .wrapper-cardlist .custom-width {
+    min-width: 75%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel-item img {
+    height: 100%;
+  }
+
+  .carousel-caption h4 {
+    display: none;
+  }
+
+  .carousel-caption {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 0.3rem;
+  }
+
+  .carousel-caption .btn {
+    border-width: 0.5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .intro-section .intro-inner {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(230, 224, 224);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+
+  .wrapper-inner {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+  }
+
+  .wrapper-cardlist .custom-width {
+    min-width: 75%;
+  }
+
+  .wrapper-cardlist .spacing {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .wrapper-cardlist .card img {
+    height: 13rem;
+  }
+
+  .wrapper-contact .custom-p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+  }
+}
+
+@media (min-width: 1023.98px) and (max-width: 1360.99px) {
+  .landing-page .custom-display {
+    display: block;
+  }
+
+  .landing-page .center {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper-inner {
+    font-size: 2.1rem;
+    font-weight: 200;
+    letter-spacing: 0.5rem;
+    width: 50%;
+  }
+
+  .wrapper-cardlist .custom-width {
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 1367.98px) {
+  .wrapper-banner {
+    height: 48%;
+    width: 100%;
+  }
+
+  .wrapper-banner img {
+    height: 100%;
+    width: 100%;
+  }
+}

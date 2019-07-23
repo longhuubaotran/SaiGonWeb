@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--  -->
+    <meta
+      http-equiv="Cache-control"
+      content="no-cache,no-cache,must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <!--  -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- Scroll Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- End of Scroll Animation Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbarResponsive" data-offset="10">
+    <!-- Start of Navbar -->
+    <nav
+      class="navbar navbar-expand-md bg-dark navbar-dark fixed-top navbar-custom"
+    >
+      <!-- Navbar-Brand -->
+      <a href="#" class="navbar-brand">
+        <img src="saigonicon.png" alt="icon" />
+        <span class="align-bottom d-none d-sm-inline-block">SaiGon</span>
+      </a>
+
+      <!-- Toogler Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar-Links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="navbar-nav ml-auto">
+          <a href="#slides" class="nav-item nav-link active">Home</a>
+          <a href="#explore" class="nav-item nav-link">Explore</a>
+          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#contact" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Start of Carousel -->
+    <div
+      class="carousel slide"
+      id="slides"
+      data-ride="carousel"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-out"
+      data-aos-duration="1000"
+    >
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+
+      <!-- Slideshows -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="saigonmorning.jpg" alt="slideshow" class="img-fluid" />
+          <div class="carousel-caption">
+            <h4>Good Morning</h4>
+            <p>Welcome To Sai Gon</p>
+            <button class="btn btn-outline-light btn-lg btn-custom">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="saigonsunset.jpg" alt="slideshow" class="img-fluid" />
+        </div>
+        <div class="carousel-item">
+          <img src="saigoncorner.jpg" alt="slideshow" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!-- End of Carousel -->
+
+    <!-- Start of Introduction card list -->
+    <!-- use flexbox to center -->
+    <div
+      class="d-flex intro-section justify-content-center align-items-center"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-out"
+      data-aos-duration="1000"
+    >
+      <div class="intro-inner text-center">
+        a never sleep city
+        <br />
+        are you ready to explore?
+      </div>
+    </div>
+    <!-- End of Introduction card list -->
+
+    <!-- Start of Landing page section -->
+    <div class="offset" id="explore"></div>
+    <div
+      class="landing-page"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-out"
+      data-aos-duration="1000"
+    >
+      <div class="container-fluid">
+        <div class="row w-75 mx-auto padding">
+          <div class="col-sm-12 text-center">
+            <h2 class="h2">
+              Things... I <span class="text-secondary">Love</span> In Sai Gon.
+            </h2>
+          </div>
+          <div class="col-sm-12 text-center description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+            maxime?
+          </div>
+          <!-- first ccard -->
+          <div class="card mb-4 col-sm-5">
+            <div class="row custom-display">
+              <div class="col-sm-12 col-lg-2 center text-center">
+                <img src="comtam.png" alt="comtam" />
+              </div>
+              <div class="col-sm-12 col-lg-10 center">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Cơm Tấm</h4>
+                  <p class="text-muted" style="margin-top: -.4rem;">(ComTam)</p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of first card -->
+
+          <div class="col-md-2"></div>
+
+          <!-- Second card -->
+          <div class="card mb-4 col-sm-5">
+            <div class="row custom-display">
+              <div class="col-sm-12 col-lg-2 center text-center">
+                <img src="cafebet.png" alt="cafebet" />
+              </div>
+              <div class="col-sm-12 col-lg-10 center">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Cafe Bệt</h4>
+                  <p class="text-muted" style="margin-top: -.4rem;">
+                    (CoffeeBet)
+                  </p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Second card -->
+
+          <!-- Third Card -->
+          <div class="card mb-4 col-md-5">
+            <div class="row">
+              <div class="col-sm-12 col-lg-2 center text-center">
+                <img src="xehutieu.png" alt="xehutieu" />
+              </div>
+              <div class="col-sm-12 col-lg-10 center">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Hủ Tiếu Gõ</h4>
+                  <p class="text-muted" style="margin-top: -.4rem;">
+                    (HuTieuGo)
+                  </p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Third Card -->
+
+          <div class="col-md-2"></div>
+
+          <!-- Fourth Card -->
+          <div class="card mb-4 col-md-5">
+            <div class="row">
+              <div class="col-sm-12 col-lg-2 center text-center">
+                <img src="freeicetea.png" alt="freeicetea" />
+              </div>
+              <div class="col-sm-12 col-lg-10 center">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Trà Đá Miễn Phí</h4>
+                  <p class="text-muted" style="margin-top: -.4rem;">
+                    (TraDaMienPhi)
+                  </p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of 4th card -->
+
+          <!-- 5th card -->
+          <div class="card mb-4 col-md-5">
+            <div class="row">
+              <div class="col-sm-12 col-lg-2 center text-center">
+                <img src="nhau.png" alt="nhau" />
+              </div>
+              <div class="col-sm-12 col-lg-10 center">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Nhậu</h4>
+                  <p class="text-muted" style="margin-top: -.4rem;">(Nhau)</p>
+                  <p class="card-text">
+                    1..2..3 YOOOO!!!.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of 5th card -->
+          <div class="col-md-2"></div>
+
+          <!-- 6th card -->
+          <div class="card mb-4 col-md-5">
+            <div class="row">
+              <div class="col-sm-12 col-lg-2 center text-center">
+                <img src="xeom.png" alt="xeom" />
+              </div>
+              <div class="col-sm-12 col-lg-10 center">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Xe Ôm</h4>
+                  <p class="text-muted" style="margin-top: -.4rem;">(XeOm)</p>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Landing Page section -->
+
+    <!-- Start of Linking Pic -->
+    <div
+      class="wrapper d-flex justify-content-center align-items-center"
+      style="height: 25%;"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-out"
+      data-aos-duration="800"
+    >
+      <div class="wrapper-inner text-center">
+        You'll Find Yourself Somewhere In This City
+      </div>
+    </div>
+    <!-- End of Linking Pic -->
+
+    <!-- Start Of Card List -->
+    <div class="offset" id="about"></div>
+    <div
+      class="wrapper-cardlist"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1000"
+    >
+      <div class="container-fluid mx-auto custom-width">
+        <div class="row">
+          <!-- first card -->
+          <div class="col-sm-12 col-md-6 col-lg-4 spacing">
+            <div class="card">
+              <div
+                class="card-body first-card d-flex justify-content-center align-items-center text-center"
+              >
+                <div class="content">
+                  <h4>Sai Gon?</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+          <div class="col-sm-12 col-md-6 col-lg-4 spacing">
+            <div class="card">
+              <img src="buivien.jpg" alt="buivien" class="img-fluid" />
+              <div class="card-body text-center second-card">
+                <p>
+                  Bui Vien Walking Street Lorem ipsum dolor sit amet consectetur
+                  adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+          <div class="col-sm-12 col-md-6 col-lg-4 spacing">
+            <div class="card">
+              <img src="saigoncomua.png" alt="cafebet" class="img-fluid" />
+              <div class="card-body text-center third-card">
+                <p>
+                  Sai gon mua bat chot Lorem ipsum dolor sit amet consectetur
+                  adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4th card -->
+          <div class="col-sm-12 col-md-6 col-lg-4 spacing">
+            <div class="card">
+              <img src="ochuot.jpg" alt="ochuot" class="img-fluid" />
+              <div class="card-body text-center fourth-card">
+                <p>
+                  Sai gon mua bat chot Lorem ipsum dolor sit amet consectetur
+                  adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5th card -->
+          <div class="col-sm-12 col-md-6 col-lg-4 spacing">
+            <div class="card">
+              <img src="cafe-bet.jpg" alt="cafe-bet" class="img-fluid" />
+              <div class="card-body text-center fifth-card">
+                <p>
+                  Cafe Bet Lorem ipsum dolor sit amet consectetur adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6th card -->
+          <div class="col-sm-12 col-md-6 col-lg-4 spacing">
+            <div class="card">
+              <img src="saigonphaohoa.jpg" alt="phaohoa" class="img-fluid" />
+              <div class="card-body text-center sixth-card">
+                <p>
+                  Sai gon Phao Hoa Lorem ipsum dolor sit amet consectetur
+                  adipisicing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Of Card List -->
+
+    <!-- Start of banner pic section -->
+    <div
+      class="wrapper-banner"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-out"
+      data-aos-duration="800"
+    >
+      <img src="banner.jpg" alt="banner" class="img-fluid" />
+    </div>
+    <!-- End of banner pic section -->
+
+    <!-- Start of Contact section -->
+    <footer id="contact">
+      <div
+        class="wrapper-contact text-center"
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+      >
+        <div class="logo d-flex justify-content-center">
+          <img src="saigonicon.png" alt="icon" />
+          <span class="align-self-end">SaiGon</span>
+        </div>
+        <div class="d-flex justify-content-center">
+          <hr class="custom-line" />
+        </div>
+        <p class="lead custom-p">Long Tran</p>
+        <p class="lead custom-p">425-268-xxxx</p>
+        <p class="lead custom-p">baolong@gmail.com</p>
+        <p class="lead custom-p">Social:</p>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/baolong279"
+            target="_blank"
+            class="fab fa-facebook-square"
+          ></a>
+          <a href="#" class="fab fa-google-plus-g"></a>
+          <a
+            href="https://www.instagram.com/long_tran279/"
+            target="_blank"
+            class="fab fa-instagram"
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Contact section -->
+    <script src="app.js" async></script>
+    <script src="https://kit.fontawesome.com/67e43071fc.js"></script>
+  </body>
+</html>
